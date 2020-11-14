@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/AppTheme.PopupOverlay"
+    android:elevation="3dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="16.0dip"
+        android:text="Press on Call"
+        android:textColor="@android:color/white"
+        android:textSize="18.0sp"
+        android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16.0dip"
+                android:text="@string/call1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16.0sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/call1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
+                android:stateListAnimator="@null"
+                android:textAllCaps="false"
+                android:text="Call"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16.0dip"
+            android:text="@string/call2"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16.0sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/call2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:stateListAnimator="@null"
+            android:textAllCaps="false"
+            android:text="Call"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16.0dip"
+            android:text="+88 01689655055"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginRight="20dp"
+            android:textSize="16.0sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/whatsapp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:stateListAnimator="@null"
+            android:textAllCaps="false"
+            android:background="@drawable/ic_whatsapp"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:padding="16.0dip"
+            android:text="+88 01689655055"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16.0sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/imo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:stateListAnimator="@null"
+            android:textAllCaps="false"
+            android:background="@drawable/ic_imo"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/no_thnks"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:stateListAnimator="@null"
+        android:textAllCaps="false"
+        android:text="No, Thanks!"
+        android:textColor="@color/colorPrimary" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#ffd81b60</color>
+    <color name="colorPrimary">#fff7791e</color>
+    <color name="colorPrimaryDark">#ffc5c5c5</color>
+
+    <color name="normal_text_color">#ff33455a</color>
+    <color name="actionbar_text_color">#ff2a2e34</color>
+    <color name="white">#ffffffff</color>
+    <color name="slider_indicator_selected">#fff7791e</color>
+    <color name="slider_indicator_unselected">#ffdedede</color>
+    <color name="pelorous">#ff40a8b3</color>
+    <color name="regent_gray">#ff919eab</color>
+    <color name="second_black">#ff67707b</color>
+    <color name="black">#000000</color>
+
+</resources>

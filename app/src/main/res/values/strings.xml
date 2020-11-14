@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Somity Keeper</string>
+    <string name="action_about">About</string>
+    <string name="alert_title">Attention!</string>
+    <string name="alert_message">Unable to load data. \nCheck your connection!</string>
+    <string name="alert_positive">Close</string>
+    <string name="video">Video</string>
+
+    <!-- you have to change category rss link in view model example category_1 link change then you have to change category1view model manually-->
+    <string name="category_1">https://somitykeeper.com/category/recently-added-somity/feed</string>
+    <string name="category_2">https://somitykeeper.com/category/success-story/feed</string>
+    <string name="category_3">http://somitykeeper.com/feed</string>
+
+    <string name="complain_box">https://somitykeeper.com/complain</string>
+    <string name="facebook_page">https://www.facebook.com/shomitikeepr</string>
+    <string name="tutorial">https://somitykeeper.com/how-to-start</string>
+    <string name="question">https://somitykeeper.com/faq</string>
+    <string name="pricing">https://somitykeeper.com/pricing</string>
+    <string name="testomonial">https://somitykeeper.com/tetsimonial</string>
+    <string name="success_story">https://somitykeeper.com/category/success-story</string>
+    <string name="timeline">https://somitykeeper.com/timeline</string>
+    <string name="recently_added_somity">https://somitykeeper.com/category/recently-added-somity</string>
+    <string name="referal_program">https://somitykeeper.com/referral</string>
+
+    <string name="info_text">Best Micro Finance Software in Bangladesh
+         &lt;br /&gt;&lt;br /&gt;Visit Our Website</string>
+    <string name="author">&lt;br /&gt;&lt;br /&gt;Develop by </string>
+    <string name="defaulturl">http://demo.oslbd.org/admin</string>
+    <string name="availity">&lt;br/&gt;&lt;br/&gt;Our Business Time&lt;br/&gt; 9am to 6pm (Sat - Thu)</string>
+    <string name="not_available">We are currently unavailable to take your call.&lt;br/&gt;&lt;br/&gt;You can contact us on <b /></string>
+    <string name="call1">+88 01689655055</string>
+    <string name="call2">+88 09678114426</string>
+
+    <string name="category_1_title">সাম্প্রতিক সমিতিগুলো</string>
+    <string name="category_2_title">সফল সমবায়ীদের গল্প</string>
+    <string name="category_3_title">Category 3</string>
+    <string name="_169_software_bazar_bangladesh">© Software Bazar Bangladesh</string>
+    <string name="software">&lt;br /&gt;&lt;br /&gt; © Software Bazar Bangladesh 2020</string>
+    <string name="version">&lt;br /&gt;&lt;br /&gt; App Version v 1.00</string>
+</resources>
